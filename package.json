@@ -1,0 +1,19 @@
+{
+  "name": "detective-sudoku-blackwood",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node tools/build.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "audit:clues": "node tools/audit-clues.mjs",
+    "test": "npm run build && node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "vite": "8.0.13"
+  }
+}
