@@ -1,19 +1,16 @@
 {
-  "name": "detective-sudoku-blackwood",
+  "name": "detective-sudoku-campaign",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": {
-    "node": ">=22.13.0"
-  },
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
-    "build": "node tools/build.mjs",
-    "preview": "vite preview --host 127.0.0.1",
-    "audit:clues": "node tools/audit-clues.mjs",
-    "test": "npm run build && node --test tests/*.test.mjs"
+    "test": "node tests/chapter1-data.test.mjs && node tests/chapter1-flow.test.mjs && node tests/campaign-data.test.mjs && node tests/campaign-invariants.test.mjs && node tests/chapter-selection.test.mjs",
+    "test:ui": "node tests/campaign-browser.mjs",
+    "test:system": "node tests/system-browser.mjs",
+    "test:sdk": "node tests/sdk-browser.mjs"
   },
   "devDependencies": {
-    "vite": "^8.1.5"
+    "playwright": "^1.61.1",
+    "@playwright/test": "^1.61.1"
   }
 }
