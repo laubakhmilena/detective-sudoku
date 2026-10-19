@@ -1,0 +1,488 @@
+{
+  "responsive": [
+    {
+      "lang": "ru",
+      "width": 320,
+      "height": 568,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        220,
+        254
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "height": 640,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        292,
+        326
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 375,
+      "height": 667,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        319,
+        353
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 412,
+      "height": 924,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        392,
+        392
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 427,
+      "height": 952,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        407,
+        407
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 568,
+      "height": 320,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        244,
+        244
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 640,
+      "height": 360,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        284,
+        284
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 667,
+      "height": 375,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        299,
+        299
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 882,
+      "height": 344,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        268,
+        268
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 924,
+      "height": 412,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        336,
+        336
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 952,
+      "height": 427,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        351,
+        351
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 768,
+      "height": 1024,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "18px",
+      "timerFont": "14px",
+      "boardRange": [
+        632,
+        632
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 1024,
+      "height": 768,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        561,
+        561
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 1080,
+      "height": 1920,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "18px",
+      "timerFont": "20px",
+      "boardRange": [
+        1032,
+        1032
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 1366,
+      "height": 768,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "15px",
+      "timerFont": "17.758px",
+      "boardRange": [
+        592,
+        592
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 1920,
+      "height": 1080,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "19.2px",
+      "timerFont": "20px",
+      "boardRange": [
+        842,
+        842
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 2560,
+      "height": 1440,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "24px",
+      "timerFont": "20px",
+      "boardRange": [
+        1202,
+        1202
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 3840,
+      "height": 2160,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "24px",
+      "timerFont": "20px",
+      "boardRange": [
+        1360,
+        1360
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "height": 568,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        211,
+        254
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "height": 640,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        292,
+        326
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "height": 667,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        319,
+        353
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 412,
+      "height": 924,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        392,
+        392
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 427,
+      "height": 952,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        407,
+        407
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 568,
+      "height": 320,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        244,
+        244
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 640,
+      "height": 360,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        284,
+        284
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 667,
+      "height": 375,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        299,
+        299
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 882,
+      "height": 344,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        268,
+        268
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 924,
+      "height": 412,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        336,
+        336
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 952,
+      "height": 427,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        351,
+        351
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "height": 1024,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "18px",
+      "timerFont": "14px",
+      "boardRange": [
+        632,
+        632
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1024,
+      "height": 768,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "14px",
+      "timerFont": "14px",
+      "boardRange": [
+        561,
+        561
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1080,
+      "height": 1920,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "18px",
+      "timerFont": "20px",
+      "boardRange": [
+        1032,
+        1032
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1366,
+      "height": 768,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "15px",
+      "timerFont": "17.758px",
+      "boardRange": [
+        592,
+        592
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1920,
+      "height": 1080,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "19.2px",
+      "timerFont": "20px",
+      "boardRange": [
+        842,
+        842
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 2560,
+      "height": 1440,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "24px",
+      "timerFont": "20px",
+      "boardRange": [
+        1202,
+        1202
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 3840,
+      "height": 2160,
+      "result": "PASS",
+      "failures": [],
+      "clueFont": "24px",
+      "timerFont": "20px",
+      "boardRange": [
+        1360,
+        1360
+      ]
+    }
+  ],
+  "endless": {
+    "lock": "PASS",
+    "reload": "PASS",
+    "complete": "PASS",
+    "next": "PASS",
+    "rotation": "PASS"
+  },
+  "audio": {
+    "effectAndVolume": "PASS",
+    "mute": "PASS",
+    "focusPause": "PASS",
+    "settingsReload": "PASS"
+  },
+  "errors": [],
+  "source": "Packaged file:// build, automated Chrome",
+  "liveYandex": "NOT TESTED"
+}

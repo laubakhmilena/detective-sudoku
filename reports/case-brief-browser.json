@@ -1,0 +1,77 @@
+{
+  "levels": [
+    {
+      "id": "bookshop",
+      "result": "PASS"
+    },
+    {
+      "id": "cafe",
+      "result": "PASS"
+    },
+    {
+      "id": "garden",
+      "result": "PASS"
+    },
+    {
+      "id": "antiques",
+      "result": "PASS"
+    },
+    {
+      "id": "hotel",
+      "result": "PASS"
+    },
+    {
+      "id": "station",
+      "result": "PASS"
+    },
+    {
+      "id": "gallery",
+      "result": "PASS"
+    },
+    {
+      "id": "theatre",
+      "result": "PASS"
+    },
+    {
+      "id": "yacht",
+      "result": "PASS"
+    },
+    {
+      "id": "museum",
+      "result": "PASS"
+    },
+    {
+      "id": "resort",
+      "result": "PASS"
+    },
+    {
+      "id": "laboratory",
+      "result": "PASS"
+    }
+  ],
+  "viewports": [
+    {
+      "width": 375,
+      "height": 667,
+      "result": "PASS"
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "result": "PASS"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "result": "PASS"
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "result": "PASS"
+    }
+  ],
+  "errors": [],
+  "unreadBriefAfterReload": "PASS",
+  "result": "PASS"
+}

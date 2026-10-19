@@ -1,0 +1,88 @@
+/* Phone portrait: board, people, one clue, fixed actions. */
+@media (orientation:portrait) and (max-width:650px) {
+ .game-layout{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) auto;gap:7px;padding:7px 6px}
+ .game-panel{display:grid;grid-template-columns:1fr;gap:5px}.panel-heading{display:none}
+ .participants{gap:3px}.game-screen .person,.game-screen .person.selected{padding:3px;font-size:12px;min-height:44px;gap:3px}.person img{width:28px;height:28px}
+ .participants[data-count="6"] .person,.participants[data-count="7"] .person,.participants[data-count="8"] .person{flex-direction:row;min-height:44px;line-height:1.15}.participants[data-count="6"] .person img,.participants[data-count="7"] .person img,.participants[data-count="8"] .person img{width:24px;height:24px}
+ .active-clue{padding:7px 9px;height:98px}.clue-head>img{display:none}.clue-head strong{font-size:14px}.clue-head .icon-button{width:32px;min-height:28px;height:28px;font-size:18px}
+ .clue-text{font-size:14px;line-height:1.25}.clue-text p{margin:4px 0}
+ .actions{gap:4px;padding:5px}.actions button:not(.icon-button){padding:5px 2px;flex:1;min-width:0;width:auto;font-size:14px}.actions .icon-button{width:30px;min-width:30px;font-size:17px}
+ .topbar{min-height:50px;padding:3px 6px;gap:5px}.topbar-title{font-size:14px}.topbar-title small{font-size:11px}.timer{font-size:14px;padding:7px 6px}.topbar .icon-button{width:34px;min-height:42px}
+ .board-caption{font-size:11px}.home-actions{margin-top:20px}.home h1{margin:16px 0}.home p{margin:16px auto}
+ .catalog{padding:12px}.filters button{padding:7px 9px;font-size:13px}.puzzle-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.puzzle-card{padding:12px}.puzzle-card h2{font-size:21px;line-height:1.15}.scene-miniature{height:130px}.difficulty{font-size:12px}.catalog-options{font-size:13px}.puzzle-card>.eyebrow{font-size:11px;padding-right:25px}.scene-emblem{width:26px;height:26px;right:7px;top:7px}
+ .endless-promo{flex-wrap:wrap;padding:14px;gap:10px}.endless-promo>div{min-width:200px}.endless-promo button{width:100%}.endless-symbol{font-size:42px}
+ .modal{padding:18px}.modal p{font-size:15px}.killer-options{grid-template-columns:repeat(2,1fr)}
+}
+/* Tablet portrait: intrinsic board, immediately followed by information. */
+@media (orientation:portrait) and (min-width:651px) {
+ .game-layout{flex:none;grid-template-columns:1fr;grid-template-rows:auto auto;gap:16px;padding:16px;width:100%;margin:auto}
+ .board-area{height:min(calc(100vw - 16px),calc(100dvh - 365px))}
+ .game-panel{display:grid;grid-template-columns:1fr 1fr;gap:16px;width:min(1040px,100%);justify-self:center;align-items:start}
+ .game-panel>.panel-heading{display:none}.participants{align-self:center}.person{font-size:14px;padding:7px}.person img{width:clamp(38px,5vw,56px);height:clamp(38px,5vw,56px)}
+ .active-clue{min-height:180px;max-height:240px;padding:18px}.clue-text{font-size:18px}.clue-head strong{font-size:18px}
+ .home-content{width:85%}
+ .home h1{font-size:clamp(48px,7vw,84px)}.home .eyebrow{font-size:16px}.home-actions{width:min(100%,460px)}.home-actions button{min-height:58px;font-size:20px}.home p{font-size:clamp(20px,2.5vw,28px)}
+}
+@media (min-width:1400px) and (min-height:800px) and (orientation:landscape) {
+ .game-layout{padding-block:22px}.game-panel{gap:18px}.participants{gap:10px}.person{padding:8px;font-size:15px}.active-clue{padding:22px}.actions{padding:12px}.actions button{min-height:50px}
+}
+/* Short landscape: board left, panel and actions right. */
+@media (orientation:landscape) and (max-height:520px) {
+ .topbar{min-height:48px;padding:2px 8px;gap:7px}.topbar-title{font-size:15px}.topbar-title small{font-size:11px}
+ .game-screen{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,48%);grid-template-rows:auto minmax(0,1fr) auto;gap:0}
+ .game-screen>.topbar{grid-area:1/1/2/3}.game-layout{display:contents}.board-area{grid-area:2/1/4/2;padding:5px 8px}
+ .game-panel{grid-area:2/2/3/3;padding:5px 8px 4px 0;gap:5px;justify-content:start}.participants{gap:3px}.game-screen .person,.game-screen .person.selected{min-height:44px;padding:3px;font-size:12px;gap:3px}.person img{width:25px;height:25px}
+ .panel-heading{display:none}.active-clue{padding:6px 8px;flex:1}.clue-head img{display:none}.clue-head strong{font-size:14px}.clue-head .icon-button{width:30px;height:28px;min-height:28px}
+ .clue-text{font-size:14px;line-height:1.25}.clue-text p{margin:5px 0}
+ .game-screen>.actions{grid-area:3/2/4/3;padding:4px 8px 4px 0;gap:3px;border-top:0}.game-screen>.actions>button:not(.icon-button){flex:1;width:auto;min-width:0;padding:4px 2px;font-size:12px;min-height:42px}.game-screen>.actions>.icon-button{width:30px}.board-caption{font-size:11px}
+ .home-content{display:grid;grid-template-columns:1fr 1fr;column-gap:35px;align-items:center;text-align:left}.home-content>.eyebrow,.home-content>h1,.home-content>.red-line,.home-content>p{grid-column:1}.home h1{font-size:36px;margin:10px 0}.home p{font-size:14px;margin:10px 0}.home .red-line{margin:0}.home-actions{grid-column:2;grid-row:1/5;margin:0;width:100%;gap:7px}.home-actions button{min-height:42px}.home small{grid-column:2;text-align:center}
+ .modal h2{font-size:24px}.tutorial-demo .person img{width:44px;height:44px}.demo-grid{grid-template-columns:repeat(3,34px)}.demo-grid button{height:34px;min-height:34px}.tutorial-demo{gap:12px}
+ .catalog-intro{margin-bottom:10px}.catalog-intro h1{font-size:26px}.catalog-intro p{display:none}.catalog-intro>.eyebrow{display:none}.catalog-options{margin:8px 0 12px}
+}
+
+/* Tall portrait screens use readable evidence cards instead of a small strip under a huge plan. */
+@media (orientation:portrait) and (min-width:651px) and (min-height:1200px){
+ .game-layout{flex:1;grid-template-rows:minmax(0,1fr) auto;padding:20px;gap:18px;margin:0 auto}.board-area{height:auto}
+ .topbar{min-height:76px;padding:10px 14px}.topbar-title{font-size:26px}.topbar-title small{font-size:16px}.timer{font-size:20px}.topbar .icon-button{width:52px;min-height:52px}
+ .game-panel{grid-template-columns:1fr;gap:14px;align-items:stretch}.participants{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+ .game-panel .person{display:grid;grid-template-columns:52px minmax(0,1fr);grid-template-rows:auto auto;text-align:left;padding:10px;gap:6px 9px;min-height:124px;align-items:center}
+ .game-panel .person img{width:52px;height:52px;border-radius:8px}.game-panel .person>span{font-size:20px}.game-panel .person-clue{display:block;grid-column:1/-1;font-size:18px;font-weight:400;font-style:normal;line-height:1.35}
+ .active-clue{min-height:0;max-height:none;padding:12px 16px}.active-clue .clue-text{display:none}.clue-head>img{display:none}.clue-head strong{font-size:20px}.selection-help{display:block;font-size:16px}
+ .actions{padding:12px;gap:10px}.actions>button:not(.icon-button){min-height:54px;font-size:18px;width:180px}.board-caption{font-size:17px}.room-label{font-size:clamp(14px,calc(var(--cell)*.16),22px)}
+}
+
+/* Compact landscape dialogs: reflow long briefing/result content instead of
+   making the player scroll a modal on a short phone screen. */
+@media (orientation:landscape) and (max-height:520px) {
+ .overlay{padding:6px}
+ .modal{width:min(920px,100%);max-height:calc(100dvh - 12px);padding:10px 14px;overflow:auto}
+ .modal h2{font-size:clamp(18px,5.5vh,23px);line-height:1.12;margin:0 0 3px;padding-right:28px}
+ .modal p{font-size:clamp(12px,3.25vh,14px);line-height:1.24;margin:3px 0}
+ .modal>button:not(.modal-close){min-height:38px;margin-top:4px;padding:5px 10px;font-size:clamp(12px,3.2vh,14px)}
+ .modal-close{right:4px;top:3px;min-height:30px;width:30px}
+
+ /* Briefing and case-info dialogs use two columns for the victim and case
+    condition, while keeping the narrative and primary action full-width. */
+ .modal:has(>.case-victim):not(:has(.killer-options)){
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:center;gap:3px 12px;overflow:visible;max-height:none
+ }
+ .modal:has(>.case-victim):not(:has(.killer-options))>.eyebrow,
+ .modal:has(>.case-victim):not(:has(.killer-options))>h2,
+ .modal:has(>.case-victim):not(:has(.killer-options))>p:first-of-type,
+ .modal:has(>.case-victim):not(:has(.killer-options))>button:not(.modal-close){grid-column:1/-1}
+ .modal:has(>.case-victim):not(:has(.killer-options))>.case-victim{margin:2px 0;gap:8px;align-self:center}
+ .modal:has(>.case-victim):not(:has(.killer-options)) .case-victim img{width:40px;height:40px}
+ .modal:has(>.case-victim):not(:has(.killer-options)) .case-victim strong{font-size:15px}
+ .modal:has(>.case-victim):not(:has(.killer-options)) .case-premise{padding:6px 9px;align-self:center;font-size:13px;line-height:1.2}
+ .modal:has(>.case-victim):not(:has(.killer-options)) .case-premise p{margin-top:2px;font-size:13px;line-height:1.2}
+
+ /* Keep result actions on one row so none of them disappear below the fold. */
+ .modal:has(.result-reason){display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-content:center;gap:3px 10px;overflow:visible;max-height:none}
+ .modal:has(.result-reason)>.eyebrow,
+ .modal:has(.result-reason)>h2,
+ .modal:has(.result-reason)>.result-reason,
+ .modal:has(.result-reason)>p:not(.result-reason){grid-column:1/-1}
+ .modal:has(.result-reason) .result-portrait img{width:54px;height:54px}
+ .modal:has(.result-reason) .stars{font-size:28px;line-height:1.1;align-self:center}
+ .modal:has(.result-reason)>button:not(.modal-close){margin:0;min-width:0;padding:4px 6px;white-space:normal}
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "width": 320,
+    "height": 568,
+    "overflow": false,
+    "titleFont": "38px",
+    "buttonFont": "16px",
+    "result": "PASS"
+  },
+  {
+    "width": 568,
+    "height": 320,
+    "overflow": false,
+    "titleFont": "36px",
+    "buttonFont": "16px",
+    "result": "PASS"
+  },
+  {
+    "width": 412,
+    "height": 924,
+    "overflow": false,
+    "titleFont": "38px",
+    "buttonFont": "16px",
+    "result": "PASS"
+  },
+  {
+    "width": 924,
+    "height": 412,
+    "overflow": false,
+    "titleFont": "36px",
+    "buttonFont": "16px",
+    "result": "PASS"
+  },
+  {
+    "width": 1080,
+    "height": 1920,
+    "overflow": false,
+    "titleFont": "75.6px",
+    "buttonFont": "20px",
+    "result": "PASS"
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "overflow": false,
+    "titleFont": "100px",
+    "buttonFont": "24px",
+    "result": "PASS"
+  },
+  {
+    "width": 3840,
+    "height": 2160,
+    "overflow": false,
+    "titleFont": "100px",
+    "buttonFont": "24px",
+    "result": "PASS"
+  }
+]

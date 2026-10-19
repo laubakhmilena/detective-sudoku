@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bookshop",
+    "seats": 1,
+    "sittingClues": 1,
+    "result": "PASS"
+  },
+  {
+    "id": "cafe",
+    "seats": 3,
+    "sittingClues": 1,
+    "result": "PASS"
+  },
+  {
+    "id": "garden",
+    "seats": 2,
+    "sittingClues": 1,
+    "result": "PASS"
+  },
+  {
+    "id": "antiques",
+    "seats": 1,
+    "sittingClues": 1,
+    "result": "PASS"
+  },
+  {
+    "id": "hotel",
+    "seats": 2,
+    "sittingClues": 2,
+    "result": "PASS"
+  },
+  {
+    "id": "station",
+    "seats": 1,
+    "sittingClues": 1,
+    "result": "PASS"
+  },
+  {
+    "id": "gallery",
+    "seats": 2,
+    "sittingClues": 1,
+    "result": "PASS"
+  },
+  {
+    "id": "theatre",
+    "seats": 3,
+    "sittingClues": 2,
+    "result": "PASS"
+  },
+  {
+    "id": "yacht",
+    "seats": 2,
+    "sittingClues": 1,
+    "result": "PASS"
+  },
+  {
+    "id": "museum",
+    "seats": 2,
+    "sittingClues": 1,
+    "result": "PASS"
+  },
+  {
+    "id": "resort",
+    "seats": 2,
+    "sittingClues": 1,
+    "result": "PASS"
+  },
+  {
+    "id": "laboratory",
+    "seats": 2,
+    "sittingClues": 0,
+    "result": "PASS"
+  }
+]

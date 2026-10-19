@@ -1,0 +1,27 @@
+{
+  "tested": 300,
+  "unique": 300,
+  "maxGenerationMs": 158.7605999999996,
+  "cases": [
+    {
+      "id": "endless-14",
+      "size": 6,
+      "rules": 10
+    },
+    {
+      "id": "endless-15",
+      "size": 7,
+      "rules": 12
+    },
+    {
+      "id": "endless-16",
+      "size": 5,
+      "rules": 8
+    }
+  ],
+  "distinctPlans": 300,
+  "lock": "PASS",
+  "noDuplicateRewards": "PASS",
+  "persistence": "PASS",
+  "result": "PASS"
+}

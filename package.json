@@ -1,13 +1,20 @@
 {
-  "name": "detective-sudoku-campaign",
-  "version": "1.0.0",
+  "name": "detective-sudoku-independent",
+  "version": "3.2.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node tests/chapter1-data.test.mjs && node tests/chapter1-flow.test.mjs && node tests/campaign-data.test.mjs && node tests/campaign-invariants.test.mjs && node tests/chapter-selection.test.mjs",
-    "test:ui": "node tests/campaign-browser.mjs",
-    "test:system": "node tests/system-browser.mjs",
-    "test:sdk": "node tests/sdk-browser.mjs"
+    "test": "node tests/independent-data.test.mjs",
+    "test:ui": "node tests/independent-browser.mjs",
+    "test:sdk": "node tests/independent-sdk-browser.mjs",
+    "build": "node tools/build-independent.mjs",
+    "test:local": "node tests/local-polish-browser.mjs",
+    "author": "node tools/author-scenes.mjs && node tools/draw-portraits.mjs",
+    "test:seating": "node tests/seating-browser.mjs",
+    "test:brief": "node tests/case-brief-browser.mjs",
+    "test:endless": "node tests/endless-data.test.mjs",
+    "test:release": "node tests/release-audit-browser.mjs",
+    "test:phone": "node tests/phone-release-browser.mjs"
   },
   "devDependencies": {
     "playwright": "^1.61.1",

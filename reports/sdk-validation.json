@@ -1,0 +1,19 @@
+{
+  "environment": "SDK mock on local server",
+  "livePlatform": "NOT TESTED",
+  "Guest": "PASS",
+  "Language": "PASS",
+  "LoadingAPI": "PASS",
+  "Init": "PASS",
+  "Pause": "PASS",
+  "GameplayAPI": "PASS",
+  "AdFailure": "PASS",
+  "Rewarded": "PASS",
+  "Fullscreen": "PASS",
+  "Cloud": "PASS",
+  "SafeStorage": "PASS",
+  "ExplicitAuthorization": "PASS",
+  "CloudRestore": "PASS",
+  "CloudMerge": "PASS",
+  "EndlessWorker": "PASS"
+}

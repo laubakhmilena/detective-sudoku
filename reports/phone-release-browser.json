@@ -1,0 +1,42 @@
+{
+  "environment": "Chrome mobile emulation, touch input, packaged file:// build",
+  "physicalDevice": "NOT TESTED",
+  "errors": [],
+  "rotations": [
+    {
+      "width": 667,
+      "height": 375,
+      "result": "PASS"
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "result": "PASS"
+    },
+    {
+      "width": 412,
+      "height": 924,
+      "result": "PASS"
+    },
+    {
+      "width": 924,
+      "height": 412,
+      "result": "PASS"
+    },
+    {
+      "width": 412,
+      "height": 924,
+      "result": "PASS"
+    }
+  ],
+  "touchPlacement": "PASS",
+  "touchNotes": "PASS",
+  "hintStability": "PASS",
+  "reload": "PASS",
+  "renderWork": {
+    "samples": 35,
+    "maxMilliseconds": 10.3,
+    "meanMilliseconds": 6.74
+  },
+  "result": "PASS"
+}

@@ -1,0 +1,136 @@
+{
+  "responsive": [
+    {
+      "width": 344,
+      "height": 882,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 427,
+      "height": 952,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 440,
+      "height": 956,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 882,
+      "height": 344,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 956,
+      "height": 440,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 960,
+      "height": 1440,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1080,
+      "height": 1920,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "result": "PASS",
+      "problems": []
+    }
+  ],
+  "mechanics": {
+    "Tutorial": "PASS",
+    "Catalog": "PASS",
+    "Undo": "PASS",
+    "Move": "PASS",
+    "Place": "PASS",
+    "Save": "PASS",
+    "Hint": "PASS",
+    "Notes": "PASS",
+    "WrongSubmit": "PASS",
+    "Rotation": "PASS",
+    "Pause": "PASS",
+    "WrongAccusation": "PASS",
+    "AutomatedAllScenes": "PASS",
+    "Killer": "PASS",
+    "Submit": "PASS",
+    "Replay": "PASS",
+    "Level12Ending": "PASS",
+    "Localization": "PASS",
+    "Migration": "PASS",
+    "NamedObjects": "PASS",
+    "HintLayout": "PASS"
+  },
+  "browsers": {
+    "Chrome": "PASS",
+    "Firefox": "NOT TESTED",
+    "Safari": "NOT TESTED",
+    "Yandex": "NOT TESTED"
+  },
+  "errors": []
+}

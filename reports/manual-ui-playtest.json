@@ -1,0 +1,74 @@
+{
+  "method": "Agent-operated local browser UI, no save/localStorage injection",
+  "levels": [
+    {
+      "level": 1,
+      "result": "PASS",
+      "placement": "PASS",
+      "move": "PASS",
+      "undo": "PASS",
+      "note": "PASS",
+      "hint": "PASS",
+      "submit": "PASS",
+      "killerSelection": "PASS",
+      "resultScreen": "PASS",
+      "replayStartsEmpty": "PASS"
+    },
+    {
+      "level": 4,
+      "result": "PASS",
+      "placement": "PASS",
+      "move": "PASS",
+      "undo": "PASS",
+      "note": "PASS",
+      "hint": "PASS",
+      "submit": "PASS",
+      "killerSelection": "PASS",
+      "resultScreen": "PASS",
+      "replayStartsEmpty": "PASS"
+    },
+    {
+      "level": 7,
+      "result": "PASS",
+      "placement": "PASS",
+      "move": "PASS",
+      "undo": "PASS",
+      "note": "PASS",
+      "hint": "PASS",
+      "submit": "PASS",
+      "killerSelection": "PASS",
+      "resultScreen": "PASS",
+      "replayStartsEmpty": "PASS"
+    },
+    {
+      "level": 10,
+      "result": "PASS",
+      "placement": "PASS",
+      "move": "PASS",
+      "undo": "PASS",
+      "note": "PASS",
+      "hint": "PASS",
+      "submit": "PASS",
+      "killerSelection": "PASS",
+      "resultScreen": "PASS",
+      "replayStartsEmpty": "PASS"
+    },
+    {
+      "level": 12,
+      "result": "PASS",
+      "placement": "PASS",
+      "move": "PASS",
+      "undo": "PASS",
+      "note": "PASS",
+      "hint": "PASS",
+      "submit": "PASS",
+      "killerSelection": "PASS",
+      "resultScreen": "PASS",
+      "replayStartsEmpty": "PASS"
+    }
+  ],
+  "replayReload": "PASS",
+  "level12NoWrapWithPartialProgress": "PASS",
+  "externalNetworkUsed": false,
+  "humanFocusGroup": "NOT TESTED"
+}

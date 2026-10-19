@@ -1,0 +1,149 @@
+{
+  "reference": "https://murdoku.com/play/?lang=en",
+  "date": "2026-10-02",
+  "logicPreserved": [
+    {
+      "file": "data/puzzles.js",
+      "unchanged": true
+    },
+    {
+      "file": "js/puzzle-engine.js",
+      "unchanged": true
+    },
+    {
+      "file": "js/save-system.js",
+      "unchanged": true
+    }
+  ],
+  "uniqueSolutions": "12 / 12",
+  "automatedCompletion": "PASS",
+  "responsive": [
+    {
+      "width": 344,
+      "height": 882,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 427,
+      "height": 952,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 440,
+      "height": 956,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 882,
+      "height": 344,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 956,
+      "height": 440,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 960,
+      "height": 1440,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1080,
+      "height": 1920,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "result": "PASS",
+      "problems": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "result": "PASS",
+      "problems": []
+    }
+  ],
+  "local": {
+    "ru": "PASS",
+    "en": "PASS"
+  },
+  "save": "PASS",
+  "replay": "PASS",
+  "hintsStable": "PASS",
+  "errors": [],
+  "assets": [],
+  "manual": {
+    "puzzle": "cafe",
+    "method": "Agent-operated browser UI, no game-state injection",
+    "placement": "PASS",
+    "reload": "PASS",
+    "hintLayout": "PASS",
+    "submit": "PASS",
+    "culprit": "PASS",
+    "consoleErrors": 0
+  },
+  "notTested": [
+    "Physical touch hardware",
+    "Safari",
+    "Firefox",
+    "Yandex integration"
+  ]
+}

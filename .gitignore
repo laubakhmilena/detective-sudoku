@@ -1,6 +1,8 @@
 node_modules/
 dist/
 build/
+Подготовка релиза/
+screenshots/
 coverage/
 playwright-report/
 test-results/

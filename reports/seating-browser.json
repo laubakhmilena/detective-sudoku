@@ -1,0 +1,201 @@
+{
+  "seats": [
+    {
+      "level": "bookshop",
+      "object": "armchair",
+      "result": "PASS"
+    },
+    {
+      "level": "cafe",
+      "object": "seat",
+      "result": "PASS"
+    },
+    {
+      "level": "cafe",
+      "object": "sofa",
+      "result": "PASS"
+    },
+    {
+      "level": "cafe",
+      "object": "stool",
+      "result": "PASS"
+    },
+    {
+      "level": "garden",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "garden",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "antiques",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "hotel",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "hotel",
+      "object": "bed",
+      "result": "PASS"
+    },
+    {
+      "level": "station",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "gallery",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "gallery",
+      "object": "sofa",
+      "result": "PASS"
+    },
+    {
+      "level": "theatre",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "theatre",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "theatre",
+      "object": "sofa",
+      "result": "PASS"
+    },
+    {
+      "level": "yacht",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "yacht",
+      "object": "bed",
+      "result": "PASS"
+    },
+    {
+      "level": "museum",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "museum",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "resort",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "resort",
+      "object": "bed",
+      "result": "PASS"
+    },
+    {
+      "level": "laboratory",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "laboratory",
+      "object": "sofa",
+      "result": "PASS"
+    }
+  ],
+  "onObjectClues": [
+    {
+      "level": "bookshop",
+      "object": "armchair",
+      "result": "PASS"
+    },
+    {
+      "level": "cafe",
+      "object": "seat",
+      "result": "PASS"
+    },
+    {
+      "level": "garden",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "antiques",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "hotel",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "hotel",
+      "object": "bed",
+      "result": "PASS"
+    },
+    {
+      "level": "station",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "gallery",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "theatre",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "theatre",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "yacht",
+      "object": "bench",
+      "result": "PASS"
+    },
+    {
+      "level": "museum",
+      "object": "chair",
+      "result": "PASS"
+    },
+    {
+      "level": "resort",
+      "object": "chair",
+      "result": "PASS"
+    }
+  ],
+  "conflicts": [
+    {
+      "type": "row",
+      "result": "PASS"
+    },
+    {
+      "type": "column",
+      "result": "PASS"
+    }
+  ],
+  "errors": [],
+  "annaReload": "PASS",
+  "notesToPlacement": "PASS",
+  "solidFurnitureBlocked": "PASS",
+  "result": "PASS"
+}

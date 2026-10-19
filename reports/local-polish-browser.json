@@ -1,0 +1,1036 @@
+{
+  "responsive": [
+    {
+      "language": "ru",
+      "width": 344,
+      "height": 882,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 324,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 324,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 375,
+      "height": 667,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 353,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 319,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 390,
+      "height": 844,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 370,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 370,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 427,
+      "height": 952,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 407,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 407,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 440,
+      "height": 956,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 420,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 420,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 667,
+      "height": 375,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 299,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 299,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 844,
+      "height": 390,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 314,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 314,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 882,
+      "height": 344,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 268,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 268,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 956,
+      "height": 440,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 364,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 364,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 768,
+      "height": 1024,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 632,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 632,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 960,
+      "height": 1440,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 807,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 642,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 1080,
+      "height": 1920,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 1032,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 1032,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 1024,
+      "height": 768,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 561,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 561,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 1280,
+      "height": 800,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 625,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 625,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 1366,
+      "height": 768,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 592,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 592,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 1600,
+      "height": 900,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 693,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 693,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "ru",
+      "width": 1920,
+      "height": 1080,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 842,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 842,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 344,
+      "height": 882,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 324,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 324,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 375,
+      "height": 667,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 353,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 319,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 390,
+      "height": 844,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 370,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 370,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 427,
+      "height": 952,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 407,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 407,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 440,
+      "height": 956,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 420,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 420,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 667,
+      "height": 375,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 299,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 299,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 844,
+      "height": 390,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 314,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 314,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 882,
+      "height": 344,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 268,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 268,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 956,
+      "height": 440,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 364,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 364,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 768,
+      "height": 1024,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 632,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 632,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 960,
+      "height": 1440,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 807,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 666,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 1080,
+      "height": 1920,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 1032,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 1032,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 1024,
+      "height": 768,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 561,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 561,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 1280,
+      "height": 800,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 625,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 625,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 1366,
+      "height": 768,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 592,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 592,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 1600,
+      "height": 900,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 693,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 693,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "language": "en",
+      "width": 1920,
+      "height": 1080,
+      "screens": [
+        {
+          "screen": "Home",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "Catalog",
+          "result": "PASS",
+          "problems": []
+        },
+        {
+          "screen": "5x5",
+          "result": "PASS",
+          "boardPixels": 842,
+          "problems": []
+        },
+        {
+          "screen": "8x8",
+          "result": "PASS",
+          "boardPixels": 842,
+          "problems": []
+        }
+      ],
+      "result": "PASS"
+    }
+  ],
+  "errors": [],
+  "brokenAssets": [],
+  "externalRequests": [],
+  "localSave": "PASS",
+  "languages": {
+    "ru": "PASS",
+    "en": "PASS"
+  },
+  "fileBuild": "PASS",
+  "timerOffline": "PASS",
+  "rotation": "PASS",
+  "continuousResize": "PASS"
+}

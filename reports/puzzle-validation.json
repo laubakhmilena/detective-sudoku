@@ -1,0 +1,110 @@
+[
+  {
+    "id": "bookshop",
+    "size": 5,
+    "difficulty": 0,
+    "solutions": 1,
+    "nodes": 6,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "cafe",
+    "size": 5,
+    "difficulty": 0,
+    "solutions": 1,
+    "nodes": 6,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "garden",
+    "size": 5,
+    "difficulty": 0,
+    "solutions": 1,
+    "nodes": 6,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "antiques",
+    "size": 5,
+    "difficulty": 1,
+    "solutions": 1,
+    "nodes": 6,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "hotel",
+    "size": 6,
+    "difficulty": 1,
+    "solutions": 1,
+    "nodes": 8,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "station",
+    "size": 6,
+    "difficulty": 2,
+    "solutions": 1,
+    "nodes": 7,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "gallery",
+    "size": 7,
+    "difficulty": 2,
+    "solutions": 1,
+    "nodes": 8,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "theatre",
+    "size": 7,
+    "difficulty": 2,
+    "solutions": 1,
+    "nodes": 8,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "yacht",
+    "size": 7,
+    "difficulty": 3,
+    "solutions": 1,
+    "nodes": 13,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "museum",
+    "size": 8,
+    "difficulty": 3,
+    "solutions": 1,
+    "nodes": 14,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "resort",
+    "size": 8,
+    "difficulty": 4,
+    "solutions": 1,
+    "nodes": 17,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "id": "laboratory",
+    "size": 8,
+    "difficulty": 4,
+    "solutions": 1,
+    "nodes": 31,
+    "errors": [],
+    "pass": true
+  }
+]
