@@ -56,52 +56,54 @@ node tools/build-independent.mjs
 
 ## Подробная техническая документация
 
-# Detective Sudoku — authored v3.2
+### Игровые модули
 
-12 independent authored spatial mysteries (5×5–8×8), plus verified new cases after the authored series. Open `index.html` directly or serve the directory on localhost. Local play needs no installation or network.
+- `data/puzzles.js` — 12 авторских планов, предметы, улики и решения.
+- `js/puzzle-engine.js` — правила размещения, проверка ограничений, решатель и проверка виновника.
+- `js/ui.js`, `js/app.js`, `styles/` — каталог, план сцены, карточки улик, завязка дела, обучение, подсказки и результаты.
+- `js/endless-generator.js` — генератор с воспроизводимым начальным значением. Каждая созданная сцена проходит проверку единственности решения и виновника.
+- `js/endless-worker.js`, `js/endless.js` — фоновая генерация при запуске через HTTP и воспроизводимый локальный режим при открытии через `file://`.
+- `js/save-system.js` — отдельные основные попытки, повторы и новые дела, нормализация сохранений и лучшие результаты.
+- `assets/avatars/`, `assets/objects/` — 77 оригинальных SVG-портретов и 32 изображения предметов.
+- `platform/yandex.js` — официальный относительный `/sdk.js`, LoadingAPI, GameplayAPI, язык платформы, безопасное хранилище, облачные данные, авторизация по запросу и реклама. На `file://` и localhost включается локальный режим; параметр `?yandex` используется для проверки с имитацией SDK.
 
-## Runtime
+### Сохранения и звук
 
-- `data/puzzles.js`: the 12 authored maps, furniture, clues and solutions. Their logical data is unchanged by the release audit.
-- `js/puzzle-engine.js`: shared placement policy, constraint evaluation, solver and culprit validation.
-- `js/ui.js`, `js/app.js`, `styles/`: responsive paper catalog, top-down board, evidence cards, case brief, tutorial, hints and results.
-- `js/endless-generator.js`: seeded version 1 generator. Every returned scene passes uniqueness and culprit checks.
-- `js/endless-worker.js`, `js/endless.js`: asynchronous generation on HTTP; deterministic local fallback on file://.
-- `js/save-system.js`: main and replay attempts, independent new-case attempt, normalization and monotonic personal bests.
-- `assets/avatars/`, `assets/objects/`: 77 original SVG portraits and 32 original illustrated objects.
-- `platform/yandex.js`: official relative `/sdk.js`, LoadingAPI, GameplayAPI, SDK language, safe storage, player cloud data, explicit authorization and ads. Local mode on file:// and localhost unless `?yandex` is supplied for the mock.
+Версия формата `SAVE_VERSION` — **3**, локальный ключ — `detective-independent-v3`. Существующие результаты и попытки совместимы с этой версией. Для генерируемых дел отдельно сохраняются начальное значение генерации, номер, сложность и попытка. После перезагрузки восстанавливаются ошибки, раскрытые подсказки, заметки, расстановка и активное время игры. Завершённые дела открывают новые; повторы не увеличивают число пройденных авторских дел и не выдают повторную награду за одно новое дело.
 
-## Saves
+При синхронизации локального и облачного сохранений объединяются завершённые дела и выбираются лучшие результаты. Настройки и попытки берутся из более нового сохранения; отсутствующие попытки сохраняются из старого. Если два устройства меняют одну незавершённую попытку, выбирается версия по времени записи: две расстановки не объединяются.
 
-SAVE_VERSION remains **3**, local key `detective-independent-v3`. Existing results and attempts remain compatible. Generated cases save their seed, number, difficulty and attempt independently. Errors, revealed hints, notes, placements and active-play time survive reload. Completed cases unlock new cases; replay cannot increase the authored completion count or duplicate new-case completion rewards.
+Настройки звука включают выключение, громкость и тестовый эффект. Используются короткие синтезированные эффекты без музыкальной дорожки. Звук останавливается при потере фокуса и рекламной паузе. Таймер активной игры также приостанавливается при открытом информационном окне.
 
-Local/cloud synchronization unions completed cases and retains better results. The newest save supplies settings and attempts; older missing attempts are retained. Concurrent devices editing the same unfinished attempt are resolved by timestamp, not by combining two placements.
+### Набор проверок
 
-Sound settings include mute, volume and a test effect. The game uses short synthesized effects; there is no music track. Effects stop when the page loses focus or an advertisement pauses play. The active-play timer also pauses while an overlay is open.
+Если npm недоступен, команды можно запускать напрямую через Node.js из корня проекта:
 
-## Checks
+- `node tests/independent-data.test.mjs` — единственность всех 12 решений, логический вывод без заранее заданного ответа, двуязычные данные и нормализация сохранений.
+- `node tests/independent-browser.mjs` — прохождение 12 дел, заметки, отмена, ошибки, подсказки, повторы, локализация, пауза, миграция и 17 размеров экрана.
+- `node tests/endless-data.test.mjs` — 300 воспроизводимых дел с единственным решением и различными планами, открытие режима и сохранения.
+- `node tests/seating-browser.mjs` — 23 сидячих места, 13 улик о сидящих участниках, сообщения о конфликтах строк и столбцов, восстановление Анны после перезагрузки. Для упакованной сборки задайте переменную `BUILT=1`.
+- `node tests/case-brief-browser.mjs` — все 12 завязок, сведения о жертве, возврат к плану, устойчивость окон и восстановление непрочитанной завязки после перезагрузки.
+- `node tests/local-polish-browser.mjs` — главное меню, каталог, поля 5×5 и 8×8 на русском и английском при 17 размерах; сохранения, таймер без сети, поворот, изменение окна, ресурсы и внешние запросы.
+- `node tests/release-audit-browser.mjs` — все 12 полей с маркерами на 18 размерах на обоих языках, устойчивость подсказок, новые дела, поворот и Web Audio.
+- `node tests/independent-sdk-browser.mjs` — жизненный цикл имитации SDK, язык, хранилище, облачные сохранения и их объединение, авторизация, реклама и фоновая генерация через HTTP. Это локальная проверка, а не испытание на действующей платформе Яндекс Игр.
 
-Run commands directly with Node when npm is unavailable:
+### Сборка и аудит релиза
 
-- `node tests/independent-data.test.mjs`: all 12 unique solutions, blind deduction, bilingual data and save normalization.
-- `node tests/independent-browser.mjs`: all 12 completions, notes, undo, errors, hints, replay, localization, pause, migration and 17 sizes.
-- `node tests/endless-data.test.mjs`: 300 reproducible unique generated cases, 300 distinct plans, unlock and save checks.
-- `node tests/seating-browser.mjs`: all 23 seats, 13 sitting clues, row/column conflict messages and Anna after reload. Set `BUILT=1` for the packaged build.
-- `node tests/case-brief-browser.mjs`: all 12 briefs, victim information, return to the plan, modal stability and unread brief after reload.
-- `node tests/local-polish-browser.mjs`: home/catalog/5×5/8×8 in RU and EN at 17 sizes; local saves, offline timer, rotation, continuous resize, asset and external-request checks.
-- `node tests/release-audit-browser.mjs`: all 12 boards with all markers at 18 sizes in RU and EN; hint stability, new-case workflow, rotation and WebAudio checks.
-- `node tests/independent-sdk-browser.mjs`: SDK mock lifecycle, language, safe storage, player saves, merge, authorization, ads and HTTP Worker. **This is not a test against the live Yandex platform.**
+Команда `node tools/build-independent.mjs` создаёт `build/independent` по явному списку игровых файлов. В сборку входят только необходимые скрипты, стили и используемая графика. Инструменты, отчёты, тесты, скриншоты и файлы прежней кампании исключаются.
 
-## Build and release audit
+В `Релиз для Яндекс Игр/` находятся:
 
-`node tools/build-independent.mjs` writes `build/independent` using an explicit runtime manifest. Only referenced artwork and runtime files are shipped. Tools, reports, tests, screenshots and old campaign files are excluded.
+- `01 — Игра для загрузки.zip` — игра с `index.html` в корне архива;
+- `02 — Материалы Яндекс Игр.zip` — иконка, обложка, девять игровых скриншотов по ориентациям, три ролика H.264 MP4 и русская инструкция;
+- памятка для загрузки.
 
-The user-facing upload package is in `Релиз для Яндекс Игр/`: `01 — Игра для загрузки.zip` contains the game with `index.html` at its root; `02 — Материалы Яндекс Игр.zip` contains the icon, cover, nine gameplay screenshots grouped by orientation, three H.264 MP4 captures, and a Russian upload guide. Temporary QA screenshots were removed after the final release captures were preserved. Internal export inputs remain in `Подготовка релиза/Материалы/Исходники`; this working folder is not part of the upload package.
+Временные снимки проверок удалены после сохранения окончательных материалов. Рабочие исходники экспорта находятся в `Подготовка релиза/Материалы/Исходники` и не входят в игровой архив.
 
-See `reports/release-audit.md` and its linked machine-readable checks for measured results and remaining release gates. The Yandex draft/console was not opened or changed. Physical Android/iOS devices and live platform ads/cloud storage still need testing before publication.
+Подробные результаты и незавершённые этапы проверки описаны в `reports/release-audit.md` и связанных файлах результатов. Консоль и черновик Яндекс Игр не изменялись. До публикации остаются проверки физических устройств Android/iOS, настоящей рекламы и облачных сохранений на платформе.
 
-## Authoring and references
+### Подготовка дел и графики
 
-`node tools/author-scenes.mjs`, `node tools/draw-portraits.mjs` and `node tools/draw-scene-objects.mjs` maintain scene definitions and original art. Murdoku was studied as a presentation reference; its images, logos and puzzles are not included.
+`node tools/author-scenes.mjs`, `node tools/draw-portraits.mjs` и `node tools/draw-scene-objects.mjs` поддерживают определения сцен и оригинальную графику. Murdoku изучался как пример подачи материала; его изображения, логотипы и задачи в проект не включены.
 
-Old chapters and the former campaign are outside this active independent-puzzle build. Historical reports remain separate; the current release audit identifies the checks actually performed for this version.
+Прежние главы и старая кампания не входят в актуальную сборку независимых дел. Исторические отчёты отделены от текущего аудита, который указывает проверки именно этой версии.
